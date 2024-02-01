@@ -1,0 +1,61 @@
+.mtsg-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 30px;
+  width: 80%;
+  border-radius: 20px;
+}
+
+.mtsg-image,
+.gem-image,
+.start-up-image {
+  width: 100%;
+  height: auto;
+  max-width: 150px; /* Set a maximum width for the images */
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .mtsg-card {
+    padding: 15px; /* Adjust padding for smaller screens */
+    width: 100%;
+    flex-direction:row; /* Stack items vertically on small screens */
+    align-items: center; /* Center items on small screens */
+  }
+
+  .mtsg-image {
+    max-width: 50px;
+  }
+
+  .gem-image,
+  .start-up-image {
+    max-width: 70px;
+  }
+}
+
+.sub-cards-minicards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 912px) {
+  .mtsg-card {
+    width: 90%;
+  }
+
+  .mtsg-image {
+    max-width: 90px;
+  }
+
+  .gem-image {
+    max-width: 100px;
+  }
+
+  .start-up-image {
+    max-width: 100px;
+  }
+}
