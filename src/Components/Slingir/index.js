@@ -18,7 +18,7 @@ const Slingir = () => {
   return (
     <>
       <Header />
-      <div style={{ paddingTop: "70px" }}>
+      <div style={{ paddingTop: "60px" }}>
         <div className="slinger-bg-banner p-3">
           <div className="banner-content-slingir">
             <h1 className="banner-heading-slingir">

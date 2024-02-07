@@ -40,4 +40,15 @@
   .home-page-content-container {
     display: block; /* Display the content for mobile devices */
   }
+  .home-page-paragraph{
+    color: #fff !important;
+  }
+
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 50vh; /* Adjust as needed */
+    overflow: hidden;
+  }
+  
 }

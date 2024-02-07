@@ -234,7 +234,7 @@ align-self: center;
     }
   .nav-button-pod {
     background-color: transparent !important;
-    font-family: "Nunito", sans-serif;
+    font-family: Siemenas sans Roman;
     /* border-color: aqua; */
     border-radius: 10px;
     border-width: 2px;
@@ -281,7 +281,7 @@ align-self: center;
 
   .header-button-contactus{
     padding: 8px;
-    border-radius: 10px;
+    border-radius: 10px !important;
   }
 
   /* .navbar-toggler-icon,

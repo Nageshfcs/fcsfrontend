@@ -55,7 +55,9 @@
   flex-wrap: wrap;
   padding: 0;
 }
-
+.aboutusbutton{
+  color: #000028 !important;
+}
 .techStack-Element {
   margin-right: 10px; /* Adjust the spacing between list items */
   position: relative;
@@ -95,11 +97,11 @@
   height: 200px;
   width: fit-content;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content:center;
+  align-items: flex-start;
   padding: 10px;
   margin: 10px;
-  border: 2px blue solid;
+  border: 2px gold;
   border-radius: 15px;
 }
 .h-line {

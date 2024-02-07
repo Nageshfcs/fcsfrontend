@@ -1,6 +1,17 @@
 import React, { useEffect } from "react";
 import Header from "../Header";
 import Footer from "../Footer";
+import { Link } from "react-router-dom";
+import BussinessConsulting  from '../images/about/BusinessStrategypng.webp'
+import MobileApplication from '../images/about/MobileApplication.webp'
+import DedicatedTeams from '../images/about/DedicatedTeams.webp'
+import EnterpriceMobilitySolutions from '../images/about/EnterpriseMobilitySolutions.webp'
+import MObileProtoType from '../images/about/MobilePrototype.webp'
+import TechIcon01 from '../images/about/techicon01.webp'
+import TechIcon02 from '../images/about/techicon02.webp'
+import TechIcon03 from '../images/about/techicon03.webp'
+import TechIcon04 from '../images/about/techicon04.webp'
+
 import "./index.css";
 
 export default function AboutUs() {
@@ -141,7 +152,7 @@ export default function AboutUs() {
             <div className="center">
               <div className="aboutuscardsContainer  mt-5">
                 <img
-                  src="https://www.valuecoders.com/l/wp-content/uploads-webpc/uploads/2022/11/Custom-Mobile-Apps-Development.png.webp"
+                  src={EnterpriceMobilitySolutions}
                   height="50"
                   width="50"
                   alt=""
@@ -160,7 +171,7 @@ export default function AboutUs() {
             <div className="center">
               <div className="aboutuscardsContainer active mt-5">
                 <img
-                  src="https://www.valuecoders.com/l/wp-content/uploads-webpc/uploads/2022/11/Custom-Mobile-Apps-Development.png.webp"
+                  src={MobileApplication}
                   height="50"
                   width="50"
                   alt=""
@@ -181,7 +192,7 @@ export default function AboutUs() {
             <div className="center">
               <div className="aboutuscardsContainer  mt-5">
                 <img
-                  src="https://www.valuecoders.com/l/wp-content/uploads-webpc/uploads/2022/11/Custom-Mobile-Apps-Development.png.webp"
+                  src={DedicatedTeams}
                   height="50"
                   width="50"
                   alt=""
@@ -200,7 +211,7 @@ export default function AboutUs() {
             <div className="center">
               <div className="aboutuscardsContainer  mt-5">
                 <img
-                  src="https://www.valuecoders.com/l/wp-content/uploads-webpc/uploads/2022/11/Custom-Mobile-Apps-Development.png.webp"
+                  src={MObileProtoType}
                   height="50"
                   width="50"
                   alt=""
@@ -219,7 +230,7 @@ export default function AboutUs() {
             <div className="center">
               <div className="aboutuscardsContainer mt-5">
                 <img
-                  src="https://www.valuecoders.com/l/wp-content/uploads-webpc/uploads/2022/11/Custom-Mobile-Apps-Development.png.webp"
+                  src={BussinessConsulting}
                   height="50"
                   width="50"
                   alt=""
@@ -239,16 +250,19 @@ export default function AboutUs() {
       </div>
       <div className="aboutusWorkingContainer text-center mt-3">
         <h3>Ready to work ?</h3>
-        <button className="btn btn-warning">
-          Contact US Now
-        </button>
+        <Link to='/contactUs'>
+              <button  className="heading-colors header-button-contactus nav-button-pod aboutusbutton">
+              Contact Us
+              </button>
+              
+            </Link>
       </div>
      <div className="aboutus-tech-dev-container">
       <h1>Technology & Development Stacks</h1>
       <h3>We Are An Expert Software Development Company And Use The Best Technologies And Platforms To Deliver High-Quality Products.</h3>
       <div className="techstack-cards-containeraboutus">
         <div className="techstack-card">
-          <img src="" alt="mobile dev technologies"/>
+          <img src={TechIcon01} alt="mobile dev technologies"/>
           <h5>Mobile dev Technologies</h5>
           <ul className="techStack-container">
             <li className="techStack-Element">Androide</li>
@@ -260,7 +274,7 @@ export default function AboutUs() {
           </ul>
         </div>
         <div className="techstack-card">
-          <img src="" alt="Front-end Technologies"/>
+          <img  src={TechIcon02} alt="Front-end Technologies"/>
           <h5>Front-end Technologies</h5>
           <ul className="techStack-container">
             <li className="techStack-Element">HTML5</li>
@@ -273,7 +287,7 @@ export default function AboutUs() {
           </ul>
         </div>
         <div className="techstack-card">
-          <img src="" alt="Back-end Technologies"/>
+          <img  src={TechIcon03} alt="Back-end Technologies"/>
           <h5>Back-end Technologies</h5>
           <ul className="techStack-container">
             <li className="techStack-Element">Node</li>
@@ -286,7 +300,7 @@ export default function AboutUs() {
           </ul>
         </div>
         <div className="techstack-card">
-          <img src="" alt="Other Technologies"/>
+          <img  src={TechIcon04} alt="Other Technologies"/>
           <h5>Other Technologies</h5>
           <ul className="techStack-container">
             <li className="techStack-Element">WordPress</li>

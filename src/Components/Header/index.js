@@ -127,8 +127,8 @@ const Header = () => {
               </li> */}
             </ul>
 
-            <Link className=" nav-button-pod " to='/contactUs'>
-              <button className="heading-colors header-button-contactus">
+            <Link className=" " to='/contactUs'>
+              <button className="heading-colors header-button-contactus  nav-button-pod">
               Contact Us
               </button>
               

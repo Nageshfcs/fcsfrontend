@@ -62,7 +62,7 @@ const CareerForm = () => {
       const apiUrl = process.env.REACT_APP_API_BASE_URL;
       // Send the form data to the server using axios
       const response = await axios.post(
-        `${apiUrl}/career-form`,
+        `${apiUrl}career-form`,
         formDataToSend,
         {
           headers: {

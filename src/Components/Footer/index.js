@@ -34,11 +34,11 @@ const Footer = () => {
           <h3 className="Heading-footer">FCS</h3>
           <h5 className="Heading-footer-fcs">Faaliha Consulting Services</h5>
           <div>
-            <FaInstagramSquare className="fcs-footer-icons " />
-            <FaFacebook className="fcs-footer-icons " />
-            <FaXTwitter className="fcs-footer-icons " />
-            <FaLinkedin className="fcs-footer-icons" />
-            <FaYoutubeSquare className="fcs-footer-icons " />
+            <a href="https://www.instagram.com/faalihservices99/"><FaInstagramSquare className="fcs-footer-icons-insta " /></a>
+            <a href="https://www.facebook.com/profile.php?id=100077099258313"><FaFacebook className="fcs-footer-icons-facebook" /></a>
+            <a href="https://twitter.com/FCS_GoDigital"><FaXTwitter className="fcs-footer-icons-twitter " /></a>
+            <a href="https://www.linkedin.com/company/78274811/admin/feed/posts/"><FaLinkedin className="fcs-footer-icons-linkdin" /></a>
+            <a href=""><FaYoutubeSquare className="fcs-footer-icons-youtube"/></a>
           </div>
         </div>
         <div>

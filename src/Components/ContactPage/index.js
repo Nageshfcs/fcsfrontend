@@ -92,17 +92,18 @@ const ContactPage = () => {
 
   const submitContactQueries = async (e) => {
     e.preventDefault();
+    console.log("triggered")
     setQuerySubmitbtn(true);
     const queriesformData = {
       queryFirstName,
       queryLastName,
       queryEmail,
-      queryCountry,
+      // queryCountry,
       queryMessage,
     };
     console.log(queriesformData);
     try {
-      const queryresponse = await fetch(`${apiUrl}/queries`, {
+      const queryresponse = await fetch(`${apiUrl}queries`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -114,7 +115,7 @@ const ContactPage = () => {
         setqueryFirstName("");
         setqueryLastName("");
         setqueryEmail("");
-        setqueryCountry("");
+        // setqueryCountry("");
         setqueryMessage("");
         alert("your query has been Submitted Successfully");
       } else {
@@ -174,7 +175,7 @@ const ContactPage = () => {
           placeholder="Business Email Address*"
           onChange={(e) => setservicesBusinessEmail(e.target.value)}
           id="servicesBusinessEmail" // Add ID
-  name="servicesBusinessEmail" // Add Name
+          name="servicesBusinessEmail" // Add Name
         />
       </div>
       <div className="servicesTextarea-container">
@@ -313,14 +314,14 @@ const ContactPage = () => {
           </p>
         </div>
         <p className="contact-terms-description">
-          Send me occasional information about Labyrinth Global Solutions, a LGS
+          Send me occasional information about Faaliha Consulting services, a FCS
           Group Company news and events to the provided email address.
         </p>
         <p className="contact-terms-description">
           You may withdraw your consent at any time.
         </p>
         <p className="contact-terms-description">
-          For more information about how Labyrinth Global Solutions protects
+          For more information about how Faaliha Consulting services protects
           your privacy and processes your personal data please see our{" "}
           <a href="##">Privacy Policy</a>
         </p>
@@ -331,17 +332,17 @@ const ContactPage = () => {
         style={captchaStyles}
         className="google-captcha-container g-recaptcha"
       >
-        <ReCAPTCHA
+        {/* <ReCAPTCHA
         id="queryCaptcha" // Add ID
         name="queryCaptcha" // Add Name
           sitekey={googleCaptcha}
           onChange={handleQueryCaptchaChange}
-        />
+        /> */}
       </div>
       <button
         className="contact-submit-button"
         type="submit"
-        disabled={!isQueryRecaptchaVerified}
+        // disabled={!isQueryRecaptchaVerified}
       >
         {querySubmitbtn ? "Submitting.." : "SUBMIT"}
       </button>

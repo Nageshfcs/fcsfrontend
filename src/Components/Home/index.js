@@ -15,9 +15,9 @@ const Home = () => {
   return (
     <>
       <Header />
-      <div style={{ paddingTop: "70px" }}>
+      <div style={{ paddingTop: "50px" }}>
         <VideoPage />
-        <div className="row p-5 home-bg-top ">
+        <div className="row  home-bg-top ">
           {/* <div className="col-12 col-md-7 home-page-content-container ">
             <h1 className="home-page-heading">About FCS</h1>
             <h5 className="mb-4 home-page-paragraph">

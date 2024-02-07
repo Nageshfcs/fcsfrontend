@@ -45,14 +45,7 @@
     width: 20%;
   }
 
-.fcs-footer-icons {
-  color: #fff;
-  background-color: transparent;
-  margin: 5px;
-  padding: 0px;
-  height: 30px;
-  width: 30px;
-}
+
 
 .line {
   color: #fff;
@@ -67,6 +60,38 @@
     list-style-type: none;
     padding: 0;
     
+}
+.fcs-footer-icons-linkdin, .fcs-footer-icons-youtube, .fcs-footer-icons-insta, 
+.fcs-footer-icons-facebook, .fcs-footer-icons-twitter{
+  color: #fff;
+  background-color: transparent;
+  margin: 5px;
+  padding: 0px;
+  height: 30px;
+  width: 30px;
+}
+
+.fcs-footer-icons-youtube:hover{
+  border-radius: 20px;
+  color: rgb(255, 0, 0);
+  background-color:white;
+}
+
+.fcs-footer-icons-linkdin:hover{
+  border-radius: 20px;
+  color: rgb(0, 213, 255);
+  background-color:white;
+}
+
+.fcs-footer-icons-insta:hover{
+  border-radius: 20px;
+  color: rgb(255, 0, 68);
+  background-color:white;
+}
+.fcs-footer-icons-facebook:hover{
+  border-radius: 20px;
+  color: blue;
+  background-color:white;
 }
 
 
