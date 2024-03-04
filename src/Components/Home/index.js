@@ -4,6 +4,7 @@ import Footer from "../Footer";
 import VideoPage from "../VideoPage";
 import Minicards from "../MiniCards";
 import Services from "../Services";
+import Industries from '../Industries'
 import TechnologiesPage from "../Technologies";
 import Card from "../Card";
 import CRmCertify from '../images/Products/CERTIFY CRM LOGO.png'
@@ -80,8 +81,8 @@ const Home = () => {
           <div className="row">
             <Services />
           </div>
-          <div className="Technology-mbl-container technologies-card" id="technologies">
-            <TechnologiesPage />
+          <div className="" >
+            <Industries />
           </div>
           <div className="home-clients" id="clients">
             <Card />

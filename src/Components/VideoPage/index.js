@@ -25,44 +25,7 @@ const Video = () => {
                 <h5 className="mb-4 home-page-paragraph">
                   Faalih Consultancy Services pioneers innovative software solutions, specializing in low code development in collaboration with Slingr. Our suite includes Certifify CRM, Validex Pro, and HireHub, offering tailored and efficient tools to elevate your business processes.
                 </h5>
-                <h4 className="home-page-heading">Industries We are Serving</h4>
-                <div className="home-page-list-container">
-                  <div>
-                    <ul>
-                      <li className="home-page-list">
-                        <TiTick className="home-page-tick" />
-                        Health Tech
-                      </li>
-                      <li className="home-page-list">
-                        {' '}
-                        <TiTick className="home-page-tick" />
-                        Oil & Gas
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <ul>
-                      <li className="home-page-list">
-                        {' '}
-                        <TiTick className="home-page-tick" />
-                        Automotive & Transportation
-                      </li>
-                      <li className="home-page-list">
-                        {' '}
-                        <TiTick className="home-page-tick" />
-                        Enterprise Agile (SAFE)
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <ul>
-                      <li className="home-page-list">
-                        {' '}
-                        <TiTick className="home-page-tick" /> Aerospace
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+                
                 <Link to="/contactUs">
                   <button className="learn-more-button">
                     Contact Us <BsArrowRightShort className="home-page-arrow" />
