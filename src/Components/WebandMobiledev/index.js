@@ -35,11 +35,11 @@ const WebAndMobileDev = () => {
         </div>   
       </div>
       <div className='webdev-services'>
-        <div>
-          <h2 className='web-services-heading'>What we do <span className='webdev-top-span'>for you</span></h2>
+        <div style={{padding:"30px 10px"}}>
+          <h1 align="center" className='web-services-heading'>What we do <span className='webdev-top-span'>for you</span></h1>
           <h3 className='web-services-heading'>We provide world-class technology services by constantly exploring and implementing innovative solutions that drive long-term value to our clients. our solutions provide strategic advantage to several most-admired organizations in the world. We have long-standing and vibrant partnerships with over 30 companies across the globe.</h3>
         </div>
-        <h1 className='web-services-heading'>Our Web & App development services</h1>
+        <h1 className='web-services-heading'>Our Web & App  <span className='webdev-top-span'>development services</span></h1>
         <div className='services-tabs-webdev'>
           
           <div className='cards-services-webdev'>

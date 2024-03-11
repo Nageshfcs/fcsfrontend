@@ -31,10 +31,12 @@
   color: #fff; /* Adjust text color for visibility */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
   .custom-content {
-    top: 80%; /* Increase the top value for better positioning on mobile devices */
-    left: 50%; /* Center align content on mobile devices */
+    /* top: 80%; Increase the top value for better positioning on mobile devices */
+    /* left: 50%; Center align content on mobile devices */
+    top: 52%;
+    left: 35%;
     transform: translate(-50%, -50%);
   }
   .home-page-content-container {
@@ -42,13 +44,22 @@
   }
   .home-page-paragraph{
     color: #fff !important;
+    padding-top: 10px;
   }
-
   .video-container {
     position: relative;
     width: 100%;
     height: 50vh; /* Adjust as needed */
-    overflow: hidden;
+    overflow-x: hidden;
   }
   
+}
+
+/* Modifying the code */
+.learn-more-button
+{
+  padding: 10px 15px;
+  background-color: #fff;
+  color: black;
+  font-weight: 700;
 }

@@ -12,7 +12,6 @@ body {
 }
 
 .container {
-  padding: 50px 0px;
   /* height: 100vh; */
   display: flex;
   justify-content: center;
@@ -21,11 +20,12 @@ body {
 }
 
 .parent {
-  height: 400px;
+  /* height: 400px; */
+  height: 500px;
   width: 300px;
   padding: 20px;
   perspective: 1000px;
-  margin-top: 10%;
+  /* margin: 10%; */
 }
 
 .card {
@@ -143,14 +143,14 @@ body {
   }
 
   @media only screen and (max-width: 767px) {
-    .parent {
+    /* .parent {
       height: 400px;
       width: 300px;
       padding: 20px;
       perspective: 1000px;
       margin-top: 5%;
       margin-bottom: 5%;
-    }
+    } */
     
     .card {
       padding-top: 100px;

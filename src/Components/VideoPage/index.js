@@ -25,7 +25,7 @@ const Video = () => {
                 <h5 className="mb-4 home-page-paragraph">
                   Faalih Consultancy Services pioneers innovative software solutions, specializing in low code development in collaboration with Slingr. Our suite includes Certifify CRM, Validex Pro, and HireHub, offering tailored and efficient tools to elevate your business processes.
                 </h5>
-                
+
                 <Link to="/contactUs">
                   <button className="learn-more-button">
                     Contact Us <BsArrowRightShort className="home-page-arrow" />

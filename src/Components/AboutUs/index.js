@@ -69,7 +69,7 @@ export default function AboutUs() {
           <div className="col-md-6 text-center">
             <ul className="aboutusListContainer p-5">
               <div className="row">
-                <div className="col-md-6 text-center p-2">
+                <div className="col-6 ">
                   {" "}
                   <li className="text-primary  mt-2 mb-2 p-2">
                     Quality assurance
@@ -129,8 +129,8 @@ export default function AboutUs() {
 
       <div className="container">
         <div className="row">
-          <div className="col-12 col-md-12 col-xl-4">
-            <div className="aboutuscenter">
+          <div className="col-12 col-md-12 col-xl-4 ">
+            <div className="center">
               <div className="aboutuscardsContainer mt-5">
                 <img
                   src="https://www.valuecoders.com/l/wp-content/uploads-webpc/uploads/2022/11/Custom-Mobile-Apps-Development.png.webp"

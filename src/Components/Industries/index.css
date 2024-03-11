@@ -28,12 +28,20 @@
     border-left: 8px solid #fff; /* Add this line */
 }
 
-
+.industries
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
 @media screen and (max-width:768px) {
     .industries-uls-container{
         display:flex;
         flex-direction:column;
         justify-content:center;
         align-items:center;
+        flex-wrap: wrap;
     }
 }

@@ -4,7 +4,8 @@ import MSME from "../images/MiniCards/MSME.png";
 import THub from "../images/MiniCards/T-Hub.png";
 import Startup from "../images/MiniCards/Startup image.png";
 import Gem from "../images/MiniCards/Gem.png";
-const Minicards = () => {
+const Minicards = () => 
+{
   return (
     <div className="mtsg-card">
       <img className="mtsg-image" src={MSME} alt="Logo MsMe" />

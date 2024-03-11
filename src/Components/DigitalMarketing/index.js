@@ -107,8 +107,9 @@ export  default function DigitalMarkeing(){
             <p style={{ color: "#000028" }}>Transforming Visions into Digital Reality: Mastering Digital Marketing, Website Design, and Mobile Hybrid Application Development for Your Unique Journey </p>
             
          </div>
-         <h3 style={{ color: "#000028" }}>Our Services</h3>
+         <h2 style={{ color: "#000028" }}><u>Our Services</u></h2>
          <div className='rotatecards-conteiner '>
+          
   {cardsContent.map((card, index) => (
     <div className='rotate-card col-12 col-sm-6 col-md-4' key={index}>
       <p>{card.heading}</p>
@@ -123,13 +124,15 @@ export  default function DigitalMarkeing(){
     </div>
   ))}
 </div>
-         <h3 style={{ color: "white" }}>Our Focus</h3>
-         <p style={{ color: "white" }}>At ADD Technologies, we're not just a digital marketing firm; we're your strategic partners in navigating the digital landscape. Our approach is tailored, focusing on what truly matters for your business growth and return on investment</p>
+   <div className='ourfocus'>
+         <h2 style={{ color: "Black" }}><u>Our Focus</u></h2>
+         <p style={{ color: "Black" }}>At ADD Technologies, we're not just a digital marketing firm; we're your strategic partners in navigating the digital landscape. Our approach is tailored, focusing on what truly matters for your business growth and return on investment</p>
+         </div>
          <div className='testimonial-container'>
-            <h3 style={{ color: "white" }}>Testimonials</h3>
+            <h2 align="center" style={{ color: "Black" }}><u>Testimonials</u></h2>
                <TestimonialSlider/>
          </div>
-         <button className='dm-button'>Conatct Us</button>
+         <button className='dm-button'>Contact Us</button>
     </div>
     <Footer/>
     </>

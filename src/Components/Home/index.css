@@ -12,7 +12,8 @@ body {
   align-items: center;
 }
 .home-bg-top {
-  background-color: #000028 !important;
+  /* background-color: #000028 !important; */
+  background-color: #1995AD;
   /* border-bottom: 2px solid aqua ; */
 }
 
@@ -135,15 +136,17 @@ body {
 }
 
 .home-page-paragraph {
-  font-size: 16px;
+  font-size: 22px;
   color: #fff;
   font-weight: 500;
   padding: 3px;
-  font-family: Arial Regular;
+  font-family:fansong;
+  text-shadow: 2px grey;
 }
 
 .home-page-bg-colour {
-  background: linear-gradient(#000028,#099)!important;
+  background: linear-gradient(hsl(240, 100%, 8%),#099)!important;
+  /* background: linear-gradient(#050938, #182c51); */
   padding: 0px;
 }
 
@@ -153,7 +156,7 @@ body {
   padding: 10px;
   font-size: 17px;
   font-weight: normal;
-  font-family: Arial Regular;
+  font-family: Arial regular ;
   color:#f9f6f6 ;
 }
 .whatsapp-container {
@@ -188,6 +191,7 @@ body {
 }
 
 .home-page-content-container {
+  width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -217,12 +221,13 @@ body {
 } */
 
 .learn-more-button {
-  background-color: transparent;
+  background-color: white;
     border-radius: 8px;
     border-width: 2px;
-    color: #fff;
+    color:black;
+    font-weight: 700;
     margin-bottom: 0px !important;
-    border: 2px solid rgb(233, 231, 231);
+    border: 3px solid rgb(233, 231, 231);
     border-image: linear-gradient(
         to right,
         rgb(0 118 227 / 80%),
@@ -268,7 +273,7 @@ body {
   
 /* media query apply for upto tablet devices */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   /* .home-page-slider-main-container {
     background-image: url("../images/tabletviewbgimage.png");
     background-size: cover;
@@ -299,6 +304,7 @@ body {
   }
 
   .home-page-content-container {
+    width: 90%;
     margin-bottom: 10px;
   }
 
@@ -333,9 +339,9 @@ body {
 
   .home-products-images{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
   
   .products-image-sizes,
@@ -355,16 +361,27 @@ body {
   
 }
 
-
+/* @media screen and (max-width: 912px) 
+{
+  .home-products-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+} */
 /* Media query for devices between 768px and 912px */
 @media screen and (min-width: 768px) and (max-width: 912px) {
-  .home-about-us-image {
+  /* .home-about-us-image {
     width: 80%;
     height: 80%;
     padding: 0px;
     margin: 0px;
-  }
-
+  } */
+  .home-products-images img {
+   height: 100px;
+   width: 150px;
+  };
   .home-products-images {
     display: flex;
     flex-direction: row;
@@ -374,6 +391,13 @@ body {
     margin: 8px;
     margin-bottom: 0px;
   }  
+  /* .home-products-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  } */
+  
   
   .products-image-sizes,
   .products-image-size-crmcertify {
@@ -402,4 +426,3 @@ body {
   padding-bottom: 20px;
 }
 
- 

@@ -12,13 +12,12 @@ import support from "../images/Slinger/support.jpeg";
 import platform from "../images/Slinger/platform.jpeg";
 import slingir2 from "../images/Slinger/slingir2.png";
 import slingir3 from "../images/Slinger/slingir3.png";
-
 import "./index.css";
 const Slingir = () => {
   return (
     <>
       <Header />
-      <div style={{ paddingTop: "60px" }}>
+      <div style={{ paddingTop: "60px",width:'100%' }}>
         <div className="slinger-bg-banner p-3">
           <div className="banner-content-slingir">
             <h1 className="banner-heading-slingir">
@@ -132,12 +131,13 @@ const Slingir = () => {
             </div>
           </div>
         </div>
-        <div className="slingir-bottom-container2 m-0 p-3">
-          <div>
+       
+         <div className="slingir-bottom-container2 m-0 p-3">
+          <div className="imgslingr">
             <img
               src={slingir2}
               alt="slingir"
-              className="bottom-image-slingir2"
+              className="bottom-image-slingir"
             />
           </div>
           <div className="slingir-bottom-content-container m-2 p-2">
@@ -150,11 +150,12 @@ const Slingir = () => {
               for everyone.
             </p>
           </div>
-        </div>
-        <div className="slingir-bottom-container m-3 p-3">
+         </div>
+
+         <div className="slingir-bottom-container2  p-3">
           <div className="slingir-bottom-content-container m-2 p-2">
             <h3 className="bottom-heading-slingir">The Best of Both Worlds</h3>
-            <p className="bottom-para-slingir">
+            <p className="bottom-para-slingir ">
               Slingr low-code offers enterprise businesses the dynamic
               flexibility of custom code with the speed and cost-efficiency of
               no-code. Low-code platforms significantly reduce the amount of
@@ -168,16 +169,16 @@ const Slingir = () => {
               game-changer.
             </p>
           </div>
-          <div>
+          <div className="imgslingr">
             <img src={sli} alt="fedility" className="bottom-image-slingir" />
           </div>
-        </div>
-        <div className="slingir-bottom-container2 m-0 p-3">
-          <div>
+         </div>
+         <div className="slingir-bottom-container2 m-0 p-3">
+          <div className="imgslingr">
             <img
               src={slingir3}
               alt="slingir"
-              className="bottom-image-slingir2"
+              className="bottom-image-slingir"
             />
           </div>
           <div className="slingir-bottom-content-container m-2 p-2">
@@ -190,8 +191,9 @@ const Slingir = () => {
               development.
             </p>
           </div>
+         </div>
         </div>
-      </div>
+      
       <Footer />
     </>
   );
